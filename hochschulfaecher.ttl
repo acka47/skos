@@ -5,7 +5,7 @@
 @prefix vann: <> .
 
 <scheme#> a skos:ConceptScheme ;
-dct:title "Fächersystematik Hochschulbildung in Deutschland BÄM"@de ;
+dct:title "Fächersystematik Hochschulbildung in Deutschland BOOM"@de ;
   dct:description """Diese Systematik basiert auf der Klassifikation von Studiengängen in Deutschland des [Hochschulkompass](https://www.hochschulkompass.de/studienbereiche-kennenlernen.html). Sie umfasst drei Ebenen, die im Hochschulkompass "Fächergruppen", "studienbereiche" und "Studienfelder" genannt werden."""@de;
   dct:issued "2019-05-27";
   vann:preferredNamespaceUri "http://w3id.org/class/hochschulfaecher/";
@@ -14,7 +14,7 @@ dct:title "Fächersystematik Hochschulbildung in Deutschland BÄM"@de ;
 
 
 <F1#> a skos:Concept ;
-  skos:prefLabel "Agrar- und Forstwissenschaften"@de ;
+  skos:prefLabel "BAUM"@de ;
   skos:definition """Die Agrar- und Forstwissenschaften beschäftigen sich vor allem mit Ackerbau, Viehzucht und der Nutzung bzw. Gestaltung von Wald, Natur und Landschaft. Inhaltlich prägen diese Fächergruppe ökologische, wirtschaftliche, sozial- und ingenieurwissenschaftliche Fragestellungen, die im Zusammenhang mit der Natur gestellt und beantwortet werden. Neben dem Studienbereich Agrarwissenschaften sind auch Studiengänge der Forst- und Holzwirtschaften, sowie der Umwelt- und Landschaftsgestaltung Teil der Fächergruppe. ([Quelle](https://www.hochschulkompass.de/agrar-und-forstwissenschaften.html))"""@de;
   skos:scopeNote """Die Studiengänge der Agrar- und Forstwissenschaften sind stark durch naturwissenschaftliche Studienfächer wie Zoologie, Botanik, Physik und Chemie geprägt. Je nach Studienrichtung werden im Studium auch wirtschafts- und sozialwissenschaftliche Grundlagen vermittelt. Bei den Studiengängen der Forst- und Holzwirtschaften sowie der Umweltgestaltung stehen eher ingenieurwissenschaftlich-technische Inhalte im Fokus. ([Quelle](https://www.hochschulkompass.de/agrar-und-forstwissenschaften.html))"""@de;
   skos:narrower <B1#>, <B8#>, <B12#>;
