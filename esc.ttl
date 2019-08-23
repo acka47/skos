@@ -36,7 +36,7 @@
         :n003 ;
     skos:notation "00" ;
     skos:prefLabel "Generic programmes and qualifications"@en ;
-    skos:scopeNote "General education programmes and qualifications which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 ‘Generic programmes and qualifications’"@en ;
+    skos:scopeNote """General education programmes and qualifications which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 ‘Generic programmes and qualifications’"""@en ;
     skos:topConceptOf :scheme .
 
 :n01 a skos:Concept ;
@@ -138,7 +138,7 @@
     skos:notation "001",
         "0011" ;
     skos:prefLabel "Basic programmes and qualifications"@en ;
-    skos:scopeNote "Generic programmes which cover a range of subjects, such as languages and literature, social and natural sciences, mathematics, arts and/or physical education, should be classified in 0011 ‘Basic programmes and qualifications’. This should be the case even if there is some concentration on a certain category of subject matter, such as humanities, social sciences, natural sciences, etc., which can occur."@en .
+    skos:scopeNote """Generic programmes which cover a range of subjects, such as languages and literature, social and natural sciences, mathematics, arts and/or physical education, should be classified in 0011 ‘Basic programmes and qualifications’. This should be the case even if there is some concentration on a certain category of subject matter, such as humanities, social sciences, natural sciences, etc., which can occur."""@en .
 
 :n002 a skos:Concept ;
     skos:broader :n00 ;
@@ -819,7 +819,7 @@
         :n0724 ;
     skos:notation "072" ;
     skos:prefLabel "Manufacturing and processing"@en ;
-    skos:scopeNote "Other manufacturing programmes [those without an emphasis towards engineering, i.e. on metals, mechanics, machinery, engines, electrical devices, etc.] and qualifications should be classified under 072 ‘Manufacturing and processing’. This is the case where the emphasis is on manufacturing specific products, such as food, textiles, shoes, paper, furniture, glass, plastic, etc., However, manufacturing of metal products is excluded from narrow field 072 and included in detailed field 0715 ‘Mechanics and metal trades’."@en .
+    skos:scopeNote """Other manufacturing programmes [those without an emphasis towards engineering, i.e. on metals, mechanics, machinery, engines, electrical devices, etc.] and qualifications should be classified under 072 ‘Manufacturing and processing’. This is the case where the emphasis is on manufacturing specific products, such as food, textiles, shoes, paper, furniture, glass, plastic, etc., However, manufacturing of metal products is excluded from narrow field 072 and included in detailed field 0715 ‘Mechanics and metal trades’."""@en .
 
 :n021 a skos:Concept ;
     skos:broader :n02 ;
@@ -854,7 +854,7 @@
         :n0716 ;
     skos:notation "071" ;
     skos:prefLabel "Engineering and engineering trades"@en ;
-    skos:scopeNote "Manufacturing programmes should be classified in the detailed fields under 071 ‘Engineering and engineering trades’ if the emphasis is towards engineering, i.e. on metals, mechanics, machinery, engines, electrical devices, etc."@en .
+    skos:scopeNote """Manufacturing programmes should be classified in the detailed fields under 071 ‘Engineering and engineering trades’ if the emphasis is towards engineering, i.e. on metals, mechanics, machinery, engines, electrical devices, etc."""@en .
 
 :n041 a skos:Concept ;
     skos:broader :n04 ;
