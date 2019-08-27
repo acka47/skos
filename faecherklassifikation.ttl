@@ -4,7 +4,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<scheme>\d    a skos:ConceptScheme ;
+<scheme>    a skos:ConceptScheme ;
     rdfs:comment "Diese Ontologie basiert auf \"Bildung und Kultur: Personal an Hochschulen - Fächersystematik - 2017; Erschienen am 5.12.2018; Stand: Berichtsjahr 2017; Statistisches Bundesamt (Destatis), 2018\"; in SKOS konvertiert von Tatiana Walther unter Mitwirkung von Christian Hauschke (Technische Informationsbibliothek (TIB) Hannover). Die Bezeichnungen und Inhalte der Fächersystematik blieben unverändert."@de, "© Statistisches Bundesamt (Destatis), 2018"@de ;
     owl:versionInfo "2019-07-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
     skos:hasTopConcept <01>, <02>, <03>, <04>, <05>, <07>, <08>, <09>, <15>, <20> ;
