@@ -2,13 +2,14 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
 
 <https://onto.tib.eu/destf/cs/>
     a skos:ConceptScheme ;
     rdfs:comment "Diese Ontologie basiert auf \"Bildung und Kultur: Personal an Hochschulen - Fächersystematik - 2017; Erschienen am 5.12.2018; Stand: Berichtsjahr 2017; Statistisches Bundesamt (Destatis), 2018\"; in SKOS konvertiert von Tatiana Walther unter Mitwirkung von Christian Hauschke (Technische Informationsbibliothek (TIB) Hannover). Die Bezeichnungen und Inhalte der Fächersystematik blieben unverändert."@de, "© Statistisches Bundesamt (Destatis), 2018"@de ;
     owl:versionInfo "2019-07-01"^^<http://www.w3.org/2001/XMLSchema#string> ;
     skos:hasTopConcept <https://onto.tib.eu/destf/cs/01>, <https://onto.tib.eu/destf/cs/02>, <https://onto.tib.eu/destf/cs/03>, <https://onto.tib.eu/destf/cs/04>, <https://onto.tib.eu/destf/cs/05>, <https://onto.tib.eu/destf/cs/07>, <https://onto.tib.eu/destf/cs/08>, <https://onto.tib.eu/destf/cs/09>, <https://onto.tib.eu/destf/cs/15>, <https://onto.tib.eu/destf/cs/20> ;
-    skos:prefLabel "Personal an Hochschulen - Fächersystematik"@de .
+    dct:title "Personal an Hochschulen - Fächersystematik"@de .
 
 <https://onto.tib.eu/destf/cs/01>
     a skos:Concept ;
