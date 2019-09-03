@@ -10,10 +10,10 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :scheme a skos:ConceptScheme ;
-    dct:description "The Educational Subjects Classification (ESC) is an extension of the International Standard Classification of Education (ISCED-2013). For example, it can be used for classifying by subject services that enable access to or discovery of educational resources. It is developed and maintained in the context of the OER Worldmap (OER = Open Educational Resources)."@de ;
+    dct:description "The Educational Subjects Classification (ESC) is an extension of the International Standard Classification of Education (ISCED-2013). For example, it can be used for classifying by subject services that enable access to or discovery of educational resources. It is developed and maintained in the context of the OER Worldmap (OER = Open Educational Resources)."@en ;
     dct:publisher <http://lobid.org/organisation/DE-605> ;
     dct:source <https://raw.githubusercontent.com/hbz/vocabs-edu/master/isced-2013.ttl> ;
-    dct:title "Educational Subjects Classification"@de ;
+    dct:title "Educational Subjects Classification"@en ;
     dct:alternative "ESC";
     vann:preferredNamespacePrefix "esc" ;
     vann:preferredNamespaceUri "https://w3id.org/class/esc/" ;
@@ -35,8 +35,8 @@
         :n002,
         :n003 ;
     skos:notation "00" ;
-    skos:prefLabel "Generic programmes and qualifications"@de ;
-    skos:scopeNote """General education programmes and qualifications which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 ‘Generic programmes and qualifications’"""@de ;
+    skos:prefLabel "Generic programmes and qualifications"@en ;
+    skos:scopeNote """General education programmes and qualifications which cover a broad range of subjects with little or no specialisation in a particular field or fields will typically be classified within the broad field 00 ‘Generic programmes and qualifications’"""@en ;
     skos:topConceptOf :scheme .
 
 :n01 a skos:Concept ;
@@ -47,7 +47,7 @@
         :n0114 ;
     skos:notation "01",
         "011" ;
-    skos:prefLabel "Education"@de ;
+    skos:prefLabel "Education"@en ;
     skos:topConceptOf :scheme .
 
 :n02 a skos:Concept ;
@@ -56,7 +56,7 @@
         :n022,
         :n023 ;
     skos:notation "02" ;
-    skos:prefLabel "Arts and humanities"@de ;
+    skos:prefLabel "Arts and humanities"@en ;
     skos:topConceptOf :scheme .
 
 :n03 a skos:Concept ;
@@ -64,7 +64,7 @@
     skos:narrower :n031,
         :n032 ;
     skos:notation "03" ;
-    skos:prefLabel "Social sciences, journalism and information"@de ;
+    skos:prefLabel "Social sciences, journalism and information"@en ;
     skos:topConceptOf :scheme .
 
 :n04 a skos:Concept ;
@@ -72,7 +72,7 @@
     skos:narrower :n041,
         :n042 ;
     skos:notation "04" ;
-    skos:prefLabel "Business, administration and law"@de ;
+    skos:prefLabel "Business, administration and law"@en ;
     skos:topConceptOf :scheme .
 
 :n05 a skos:Concept ;
@@ -82,7 +82,7 @@
         :n053,
         :n054 ;
     skos:notation "05" ;
-    skos:prefLabel "Natural sciences, mathematics and statistics"@de ;
+    skos:prefLabel "Natural sciences, mathematics and statistics"@en ;
     skos:topConceptOf :scheme .
 
 :n06 a skos:Concept ;
@@ -92,7 +92,7 @@
         :n0613 ;
     skos:notation "06",
         "061" ;
-    skos:prefLabel "Information and Communication Technologies (ICTs)"@de ;
+    skos:prefLabel "Information and Communication Technologies (ICTs)"@en ;
     skos:topConceptOf :scheme .
 
 :n07 a skos:Concept ;
@@ -101,7 +101,7 @@
         :n072,
         :n073 ;
     skos:notation "07" ;
-    skos:prefLabel "Engineering, manufacturing and construction"@de ;
+    skos:prefLabel "Engineering, manufacturing and construction"@en ;
     skos:topConceptOf :scheme .
 
 :n08 a skos:Concept ;
@@ -111,7 +111,7 @@
         :n0831,
         :n0841 ;
     skos:notation "08" ;
-    skos:prefLabel "Agriculture, forestry, fisheries and veterinary"@de ;
+    skos:prefLabel "Agriculture, forestry, fisheries and veterinary"@en ;
     skos:topConceptOf :scheme .
 
 :n09 a skos:Concept ;
@@ -119,7 +119,7 @@
     skos:narrower :n091,
         :n092 ;
     skos:notation "09" ;
-    skos:prefLabel "Health and welfare"@de ;
+    skos:prefLabel "Health and welfare"@en ;
     skos:topConceptOf :scheme .
 
 :n10 a skos:Concept ;
@@ -129,7 +129,7 @@
         :n103,
         :n104 ;
     skos:notation "10" ;
-    skos:prefLabel "Services"@de ;
+    skos:prefLabel "Services"@en ;
     skos:topConceptOf :scheme .
 
 :n001 a skos:Concept ;
@@ -137,569 +137,569 @@
     skos:inScheme :scheme ;
     skos:notation "001",
         "0011" ;
-    skos:prefLabel "Basic programmes and qualifications"@de ;
-    skos:scopeNote """Generic programmes which cover a range of subjects, such as languages and literature, social and natural sciences, mathematics, arts and/or physical education, should be classified in 0011 ‘Basic programmes and qualifications’. This should be the case even if there is some concentration on a certain category of subject matter, such as humanities, social sciences, natural sciences, etc., which can occur."""@de .
+    skos:prefLabel "Basic programmes and qualifications"@en ;
+    skos:scopeNote """Generic programmes which cover a range of subjects, such as languages and literature, social and natural sciences, mathematics, arts and/or physical education, should be classified in 0011 ‘Basic programmes and qualifications’. This should be the case even if there is some concentration on a certain category of subject matter, such as humanities, social sciences, natural sciences, etc., which can occur."""@en .
 
 :n002 a skos:Concept ;
     skos:broader :n00 ;
     skos:inScheme :scheme ;
     skos:notation "002",
         "0021" ;
-    skos:prefLabel "Literacy and numeracy"@de .
+    skos:prefLabel "Literacy and numeracy"@en .
 
 :n003 a skos:Concept ;
     skos:broader :n00 ;
     skos:inScheme :scheme ;
     skos:notation "003",
         "0031" ;
-    skos:prefLabel "Personal skills and development"@de .
+    skos:prefLabel "Personal skills and development"@en .
 
 :n0111 a skos:Concept ;
     skos:broader :n01 ;
     skos:inScheme :scheme ;
     skos:notation "0111" ;
-    skos:prefLabel "Education science"@de .
+    skos:prefLabel "Education science"@en .
 
 :n0112 a skos:Concept ;
     skos:broader :n01 ;
     skos:inScheme :scheme ;
     skos:notation "0112" ;
-    skos:prefLabel "Training for pre-school teachers"@de .
+    skos:prefLabel "Training for pre-school teachers"@en .
 
 :n0113 a skos:Concept ;
     skos:broader :n01 ;
     skos:inScheme :scheme ;
     skos:notation "0113" ;
-    skos:prefLabel "Teacher training without subject specialisation"@de .
+    skos:prefLabel "Teacher training without subject specialisation"@en .
 
 :n0114 a skos:Concept ;
     skos:broader :n01 ;
     skos:inScheme :scheme ;
     skos:notation "0114" ;
-    skos:prefLabel "Teacher training with subject specialisation"@de .
+    skos:prefLabel "Teacher training with subject specialisation"@en .
 
 :n0211 a skos:Concept ;
     skos:broader :n021 ;
     skos:inScheme :scheme ;
     skos:notation "0211" ;
-    skos:prefLabel "Audio-visual techniques and media production"@de .
+    skos:prefLabel "Audio-visual techniques and media production"@en .
 
 :n0212 a skos:Concept ;
     skos:broader :n021 ;
     skos:inScheme :scheme ;
     skos:notation "0212" ;
-    skos:prefLabel "Fashion, interior and industrial design"@de .
+    skos:prefLabel "Fashion, interior and industrial design"@en .
 
 :n0213 a skos:Concept ;
     skos:broader :n021 ;
     skos:inScheme :scheme ;
     skos:notation "0213" ;
-    skos:prefLabel "Fine arts"@de .
+    skos:prefLabel "Fine arts"@en .
 
 :n0214 a skos:Concept ;
     skos:broader :n021 ;
     skos:inScheme :scheme ;
     skos:notation "0214" ;
-    skos:prefLabel "Handicrafts"@de .
+    skos:prefLabel "Handicrafts"@en .
 
 :n0215 a skos:Concept ;
     skos:broader :n021 ;
     skos:inScheme :scheme ;
     skos:notation "0215" ;
-    skos:prefLabel "Music and performing arts"@de .
+    skos:prefLabel "Music and performing arts"@en .
 
 :n0221 a skos:Concept ;
     skos:broader :n022 ;
     skos:inScheme :scheme ;
     skos:notation "0221" ;
-    skos:prefLabel "Religion and theology"@de .
+    skos:prefLabel "Religion and theology"@en .
 
 :n0222 a skos:Concept ;
     skos:broader :n022 ;
     skos:inScheme :scheme ;
     skos:notation "0222" ;
-    skos:prefLabel "History and archaeology"@de .
+    skos:prefLabel "History and archaeology"@en .
 
 :n0223 a skos:Concept ;
     skos:broader :n022 ;
     skos:inScheme :scheme ;
     skos:notation "0223" ;
-    skos:prefLabel "Philosophy and ethics"@de .
+    skos:prefLabel "Philosophy and ethics"@en .
 
 :n0231 a skos:Concept ;
     skos:broader :n023 ;
     skos:narrower :n0231-ase, :n0231-zh, :n0231-en, :n0231-fr, :n0231-ga, :n0231-de, :n0231-it, :n0231-es, :n0231-cy, :n0231-pt ;
     skos:inScheme :scheme ;
     skos:notation "0231" ;
-    skos:prefLabel "Language acquisition"@de .
+    skos:prefLabel "Language acquisition"@en .
 
 :n0232 a skos:Concept ;
     skos:broader :n023 ;
     skos:narrower :n0232-en, :n0232-es, :n0232-pt ;
     skos:inScheme :scheme ;
     skos:notation "0232" ;
-    skos:prefLabel "Literature and linguistics"@de .
+    skos:prefLabel "Literature and linguistics"@en .
 
 :n0231-ase a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-ase" ;
-    skos:prefLabel "Language acquisition – American Sign Language"@de .
+    skos:prefLabel "Language acquisition – American Sign Language"@en .
 
 :n0231-zh a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-zh" ;
-    skos:prefLabel "Language acquisition – Chinese"@de .
+    skos:prefLabel "Language acquisition – Chinese"@en .
 
 :n0231-en a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-en" ;
-    skos:prefLabel "Language acquisition – English"@de .
+    skos:prefLabel "Language acquisition – English"@en .
 
 :n0231-fr a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-fr" ;
-    skos:prefLabel "Language acquisition – French"@de .
+    skos:prefLabel "Language acquisition – French"@en .
 
 :n0231-ga a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-ga" ;
-    skos:prefLabel "Language acquisition – Gaelic"@de .
+    skos:prefLabel "Language acquisition – Gaelic"@en .
 
 :n0231-de a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-de" ;
-    skos:prefLabel "Language acquisition – German"@de .
+    skos:prefLabel "Language acquisition – German"@en .
 
 :n0231-it a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-it" ;
-    skos:prefLabel "Language acquisition – Italian"@de .
+    skos:prefLabel "Language acquisition – Italian"@en .
 
 :n0231-es a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-es" ;
-    skos:prefLabel "Language acquisition – Spanish"@de .
+    skos:prefLabel "Language acquisition – Spanish"@en .
 
 :n0231-cy a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-cy" ;
-    skos:prefLabel "Language acquisition – Welsh"@de .
+    skos:prefLabel "Language acquisition – Welsh"@en .
 
 :n0231-pt a skos:Concept ;
     skos:broader :n0231 ;
     skos:inScheme :scheme ;
     skos:notation "0231-pt" ;
-    skos:prefLabel "Language acquisition – Portuguese"@de .
+    skos:prefLabel "Language acquisition – Portuguese"@en .
 
 :n0232-en a skos:Concept ;
     skos:broader :n0232 ;
     skos:inScheme :scheme ;
     skos:notation "0232-en" ;
-    skos:prefLabel "English literature and linguistics"@de .
+    skos:prefLabel "English literature and linguistics"@en .
 
 :n0232-es a skos:Concept ;
     skos:broader :n0232 ;
     skos:inScheme :scheme ;
     skos:notation "0232-es" ;
-    skos:prefLabel "Spanish literature and linguistics"@de .
+    skos:prefLabel "Spanish literature and linguistics"@en .
 
 :n0232-pt a skos:Concept ;
     skos:broader :n0232 ;
     skos:inScheme :scheme ;
     skos:notation "0232-pt" ;
-    skos:prefLabel "Portuguese literature and linguistics"@de .
+    skos:prefLabel "Portuguese literature and linguistics"@en .
 
 :n0311 a skos:Concept ;
     skos:broader :n031 ;
     skos:inScheme :scheme ;
     skos:notation "0311" ;
-    skos:prefLabel "Economics"@de .
+    skos:prefLabel "Economics"@en .
 
 :n0312 a skos:Concept ;
     skos:broader :n031 ;
     skos:inScheme :scheme ;
     skos:notation "0312" ;
-    skos:prefLabel "Political sciences and civics"@de .
+    skos:prefLabel "Political sciences and civics"@en .
 
 :n0313 a skos:Concept ;
     skos:broader :n031 ;
     skos:inScheme :scheme ;
     skos:notation "0313" ;
-    skos:prefLabel "Psychology"@de .
+    skos:prefLabel "Psychology"@en .
 
 :n0314 a skos:Concept ;
     skos:broader :n031 ;
     skos:inScheme :scheme ;
     skos:notation "0314" ;
-    skos:prefLabel "Sociology and cultural studies"@de .
+    skos:prefLabel "Sociology and cultural studies"@en .
 
 :n0321 a skos:Concept ;
     skos:broader :n032 ;
     skos:inScheme :scheme ;
     skos:notation "0321" ;
-    skos:prefLabel "Journalism and reporting"@de .
+    skos:prefLabel "Journalism and reporting"@en .
 
 :n0322 a skos:Concept ;
     skos:broader :n032 ;
     skos:inScheme :scheme ;
     skos:notation "0322" ;
-    skos:prefLabel "Library, information and archival studies"@de .
+    skos:prefLabel "Library, information and archival studies"@en .
 
 :n0411 a skos:Concept ;
     skos:broader :n041 ;
     skos:inScheme :scheme ;
     skos:notation "0411" ;
-    skos:prefLabel "Accounting and taxation"@de .
+    skos:prefLabel "Accounting and taxation"@en .
 
 :n0412 a skos:Concept ;
     skos:broader :n041 ;
     skos:inScheme :scheme ;
     skos:notation "0412" ;
-    skos:prefLabel "Finance, banking and insurance"@de .
+    skos:prefLabel "Finance, banking and insurance"@en .
 
 :n0413 a skos:Concept ;
     skos:broader :n041 ;
     skos:inScheme :scheme ;
     skos:notation "0413" ;
-    skos:prefLabel "Management and administration"@de .
+    skos:prefLabel "Management and administration"@en .
 
 :n0414 a skos:Concept ;
     skos:broader :n041 ;
     skos:inScheme :scheme ;
     skos:notation "0414" ;
-    skos:prefLabel "Marketing and advertising"@de .
+    skos:prefLabel "Marketing and advertising"@en .
 
 :n0415 a skos:Concept ;
     skos:broader :n041 ;
     skos:inScheme :scheme ;
     skos:notation "0415" ;
-    skos:prefLabel "Secretarial and office work"@de .
+    skos:prefLabel "Secretarial and office work"@en .
 
 :n0416 a skos:Concept ;
     skos:broader :n041 ;
     skos:inScheme :scheme ;
     skos:notation "0416" ;
-    skos:prefLabel "Wholesale and retail sales"@de .
+    skos:prefLabel "Wholesale and retail sales"@en .
 
 :n0417 a skos:Concept ;
     skos:broader :n041 ;
     skos:inScheme :scheme ;
     skos:notation "0417" ;
-    skos:prefLabel "Work skills"@de .
+    skos:prefLabel "Work skills"@en .
 
 :n042 a skos:Concept ;
     skos:broader :n04 ;
     skos:inScheme :scheme ;
     skos:notation "042",
         "0421" ;
-    skos:prefLabel "Law"@de .
+    skos:prefLabel "Law"@en .
 
 :n0511 a skos:Concept ;
     skos:broader :n051 ;
     skos:inScheme :scheme ;
     skos:notation "0511" ;
-    skos:prefLabel "Biology"@de .
+    skos:prefLabel "Biology"@en .
 
 :n0512 a skos:Concept ;
     skos:broader :n051 ;
     skos:inScheme :scheme ;
     skos:notation "0512" ;
-    skos:prefLabel "Biochemistry"@de .
+    skos:prefLabel "Biochemistry"@en .
 
 :n0521 a skos:Concept ;
     skos:broader :n052 ;
     skos:inScheme :scheme ;
     skos:notation "0521" ;
-    skos:prefLabel "Environmental sciences"@de .
+    skos:prefLabel "Environmental sciences"@en .
 
 :n0522 a skos:Concept ;
     skos:broader :n052 ;
     skos:inScheme :scheme ;
     skos:notation "0522" ;
-    skos:prefLabel "Natural environments and wildlife"@de .
+    skos:prefLabel "Natural environments and wildlife"@en .
 
 :n0531 a skos:Concept ;
     skos:broader :n053 ;
     skos:inScheme :scheme ;
     skos:notation "0531" ;
-    skos:prefLabel "Chemistry"@de .
+    skos:prefLabel "Chemistry"@en .
 
 :n0532 a skos:Concept ;
     skos:broader :n053 ;
     skos:inScheme :scheme ;
     skos:notation "0532" ;
-    skos:prefLabel "Earth sciences"@de .
+    skos:prefLabel "Earth sciences"@en .
 
 :n0533 a skos:Concept ;
     skos:broader :n053 ;
     skos:inScheme :scheme ;
     skos:notation "0533" ;
-    skos:prefLabel "Physics"@de .
+    skos:prefLabel "Physics"@en .
 
 :n0541 a skos:Concept ;
     skos:broader :n054 ;
     skos:inScheme :scheme ;
     skos:notation "0541" ;
-    skos:prefLabel "Mathematics"@de .
+    skos:prefLabel "Mathematics"@en .
 
 :n0542 a skos:Concept ;
     skos:broader :n054 ;
     skos:inScheme :scheme ;
     skos:notation "0542" ;
-    skos:prefLabel "Statistics"@de .
+    skos:prefLabel "Statistics"@en .
 
 :n0611 a skos:Concept ;
     skos:broader :n06 ;
     skos:inScheme :scheme ;
     skos:notation "0611" ;
-    skos:prefLabel "Computer use"@de .
+    skos:prefLabel "Computer use"@en .
 
 :n0612 a skos:Concept ;
     skos:broader :n06 ;
     skos:inScheme :scheme ;
     skos:notation "0612" ;
-    skos:prefLabel "Database and network design and administration"@de .
+    skos:prefLabel "Database and network design and administration"@en .
 
 :n0613 a skos:Concept ;
     skos:broader :n06 ;
     skos:inScheme :scheme ;
     skos:notation "0613" ;
-    skos:prefLabel "Software and applications development and analysis"@de .
+    skos:prefLabel "Software and applications development and analysis"@en .
 
 :n0711 a skos:Concept ;
     skos:broader :n071 ;
     skos:inScheme :scheme ;
     skos:notation "0711" ;
-    skos:prefLabel "Chemical engineering and processes"@de .
+    skos:prefLabel "Chemical engineering and processes"@en .
 
 :n0712 a skos:Concept ;
     skos:broader :n071 ;
     skos:inScheme :scheme ;
     skos:notation "0712" ;
-    skos:prefLabel "Environmental protection technology"@de .
+    skos:prefLabel "Environmental protection technology"@en .
 
 :n0713 a skos:Concept ;
     skos:broader :n071 ;
     skos:inScheme :scheme ;
     skos:notation "0713" ;
-    skos:prefLabel "Electricity and energy"@de .
+    skos:prefLabel "Electricity and energy"@en .
 
 :n0714 a skos:Concept ;
     skos:broader :n071 ;
     skos:inScheme :scheme ;
     skos:notation "0714" ;
-    skos:prefLabel "Electronics and automation"@de .
+    skos:prefLabel "Electronics and automation"@en .
 
 :n0715 a skos:Concept ;
     skos:broader :n071 ;
     skos:inScheme :scheme ;
     skos:notation "0715" ;
-    skos:prefLabel "Mechanics and metal trades"@de .
+    skos:prefLabel "Mechanics and metal trades"@en .
 
 :n0716 a skos:Concept ;
     skos:broader :n071 ;
     skos:inScheme :scheme ;
     skos:notation "0716" ;
-    skos:prefLabel "Motor vehicles, ships and aircraft"@de .
+    skos:prefLabel "Motor vehicles, ships and aircraft"@en .
 
 :n0721 a skos:Concept ;
     skos:broader :n072 ;
     skos:inScheme :scheme ;
     skos:notation "0721" ;
-    skos:prefLabel "Food processing"@de .
+    skos:prefLabel "Food processing"@en .
 
 :n0722 a skos:Concept ;
     skos:broader :n072 ;
     skos:inScheme :scheme ;
     skos:notation "0722" ;
-    skos:prefLabel "Materials (glass, paper, plastic and wood)"@de .
+    skos:prefLabel "Materials (glass, paper, plastic and wood)"@en .
 
 :n0723 a skos:Concept ;
     skos:broader :n072 ;
     skos:inScheme :scheme ;
     skos:notation "0723" ;
-    skos:prefLabel "Textiles (clothes, footwear and leather)"@de .
+    skos:prefLabel "Textiles (clothes, footwear and leather)"@en .
 
 :n0724 a skos:Concept ;
     skos:broader :n072 ;
     skos:inScheme :scheme ;
     skos:notation "0724" ;
-    skos:prefLabel "Mining and extraction"@de .
+    skos:prefLabel "Mining and extraction"@en .
 
 :n0731 a skos:Concept ;
     skos:broader :n073 ;
     skos:inScheme :scheme ;
     skos:notation "0731" ;
-    skos:prefLabel "Architecture and town planning"@de .
+    skos:prefLabel "Architecture and town planning"@en .
 
 :n0732 a skos:Concept ;
     skos:broader :n073 ;
     skos:inScheme :scheme ;
     skos:notation "0732" ;
-    skos:prefLabel "Building and civil engineering"@de .
+    skos:prefLabel "Building and civil engineering"@en .
 
 :n0811 a skos:Concept ;
     skos:broader :n081 ;
     skos:inScheme :scheme ;
     skos:notation "0811" ;
-    skos:prefLabel "Crop and livestock production"@de .
+    skos:prefLabel "Crop and livestock production"@en .
 
 :n0812 a skos:Concept ;
     skos:broader :n081 ;
     skos:inScheme :scheme ;
     skos:notation "0812" ;
-    skos:prefLabel "Horticulture"@de .
+    skos:prefLabel "Horticulture"@en .
 
 :n082 a skos:Concept ;
     skos:broader :n08 ;
     skos:inScheme :scheme ;
     skos:notation "082",
         "0821" ;
-    skos:prefLabel "Forestry"@de .
+    skos:prefLabel "Forestry"@en .
 
 :n0831 a skos:Concept ;
     skos:broader :n08 ;
     skos:inScheme :scheme ;
     skos:notation "083",
         "0831" ;
-    skos:prefLabel "Fisheries"@de .
+    skos:prefLabel "Fisheries"@en .
 
 :n0841 a skos:Concept ;
     skos:broader :n08 ;
     skos:inScheme :scheme ;
     skos:notation "084",
         "0841" ;
-    skos:prefLabel "Veterinary"@de .
+    skos:prefLabel "Veterinary"@en .
 
 :n0911 a skos:Concept ;
     skos:broader :n091 ;
     skos:inScheme :scheme ;
     skos:notation "0911" ;
-    skos:prefLabel "Dental studies"@de .
+    skos:prefLabel "Dental studies"@en .
 
 :n0912 a skos:Concept ;
     skos:broader :n091 ;
     skos:inScheme :scheme ;
     skos:notation "0912" ;
-    skos:prefLabel "Medicine"@de .
+    skos:prefLabel "Medicine"@en .
 
 :n0913 a skos:Concept ;
     skos:broader :n091 ;
     skos:inScheme :scheme ;
     skos:notation "0913" ;
-    skos:prefLabel "Nursing and midwifery"@de .
+    skos:prefLabel "Nursing and midwifery"@en .
 
 :n0914 a skos:Concept ;
     skos:broader :n091 ;
     skos:inScheme :scheme ;
     skos:notation "0914" ;
-    skos:prefLabel "Medical diagnostic and treatment technology"@de .
+    skos:prefLabel "Medical diagnostic and treatment technology"@en .
 
 :n0915 a skos:Concept ;
     skos:broader :n091 ;
     skos:inScheme :scheme ;
     skos:notation "0915" ;
-    skos:prefLabel "Therapy and rehabilitation"@de .
+    skos:prefLabel "Therapy and rehabilitation"@en .
 
 :n0916 a skos:Concept ;
     skos:broader :n091 ;
     skos:inScheme :scheme ;
     skos:notation "0916" ;
-    skos:prefLabel "Pharmacy"@de .
+    skos:prefLabel "Pharmacy"@en .
 
 :n0917 a skos:Concept ;
     skos:broader :n091 ;
     skos:inScheme :scheme ;
     skos:notation "0917" ;
-    skos:prefLabel "Traditional and complementary medicine and therapy"@de .
+    skos:prefLabel "Traditional and complementary medicine and therapy"@en .
 
 :n0921 a skos:Concept ;
     skos:broader :n092 ;
     skos:inScheme :scheme ;
     skos:notation "0921" ;
-    skos:prefLabel "Care of the elderly and of disabled adults"@de .
+    skos:prefLabel "Care of the elderly and of disabled adults"@en .
 
 :n0922 a skos:Concept ;
     skos:broader :n092 ;
     skos:inScheme :scheme ;
     skos:notation "0922" ;
-    skos:prefLabel "Child care and youth services"@de .
+    skos:prefLabel "Child care and youth services"@en .
 
 :n0923 a skos:Concept ;
     skos:broader :n092 ;
     skos:inScheme :scheme ;
     skos:notation "0923" ;
-    skos:prefLabel "Social work and counselling"@de .
+    skos:prefLabel "Social work and counselling"@en .
 
 :n1011 a skos:Concept ;
     skos:broader :n101 ;
     skos:inScheme :scheme ;
     skos:notation "1011" ;
-    skos:prefLabel "Domestic services"@de .
+    skos:prefLabel "Domestic services"@en .
 
 :n1012 a skos:Concept ;
     skos:broader :n101 ;
     skos:inScheme :scheme ;
     skos:notation "1012" ;
-    skos:prefLabel "Hair and beauty services"@de .
+    skos:prefLabel "Hair and beauty services"@en .
 
 :n1013 a skos:Concept ;
     skos:broader :n101 ;
     skos:inScheme :scheme ;
     skos:notation "1013" ;
-    skos:prefLabel "Hotel, restaurants and catering"@de .
+    skos:prefLabel "Hotel, restaurants and catering"@en .
 
 :n1014 a skos:Concept ;
     skos:broader :n101 ;
     skos:inScheme :scheme ;
     skos:notation "1014" ;
-    skos:prefLabel "Sports"@de .
+    skos:prefLabel "Sports"@en .
 
 :n1015 a skos:Concept ;
     skos:broader :n101 ;
     skos:inScheme :scheme ;
     skos:notation "1015" ;
-    skos:prefLabel "Travel, tourism and leisure"@de .
+    skos:prefLabel "Travel, tourism and leisure"@en .
 
 :n1021 a skos:Concept ;
     skos:broader :n102 ;
     skos:inScheme :scheme ;
     skos:notation "1021" ;
-    skos:prefLabel "Community sanitation"@de .
+    skos:prefLabel "Community sanitation"@en .
 
 :n1022 a skos:Concept ;
     skos:broader :n102 ;
     skos:inScheme :scheme ;
     skos:notation "1022" ;
-    skos:prefLabel "Occupational health and safety"@de .
+    skos:prefLabel "Occupational health and safety"@en .
 
 :n1031 a skos:Concept ;
     skos:broader :n103 ;
     skos:inScheme :scheme ;
     skos:notation "1031" ;
-    skos:prefLabel "Military and defence"@de .
+    skos:prefLabel "Military and defence"@en .
 
 :n1032 a skos:Concept ;
     skos:broader :n103 ;
     skos:inScheme :scheme ;
     skos:notation "1032" ;
-    skos:prefLabel "Protection of persons and property"@de .
+    skos:prefLabel "Protection of persons and property"@en .
 
 :n104 a skos:Concept ;
     skos:broader :n10 ;
     skos:inScheme :scheme ;
     skos:notation "104",
         "1041" ;
-    skos:prefLabel "Transport services"@de .
+    skos:prefLabel "Transport services"@en .
 
 :n023 a skos:Concept ;
     skos:broader :n02 ;
@@ -707,7 +707,7 @@
     skos:narrower :n0231,
         :n0232 ;
     skos:notation "023" ;
-    skos:prefLabel "Languages"@de .
+    skos:prefLabel "Languages"@en .
 
 :n032 a skos:Concept ;
     skos:broader :n03 ;
@@ -715,7 +715,7 @@
     skos:narrower :n0321,
         :n0322 ;
     skos:notation "032" ;
-    skos:prefLabel "Journalism and information"@de .
+    skos:prefLabel "Journalism and information"@en .
 
 :n051 a skos:Concept ;
     skos:broader :n05 ;
@@ -723,7 +723,7 @@
     skos:narrower :n0511,
         :n0512 ;
     skos:notation "051" ;
-    skos:prefLabel "Biological and related sciences"@de .
+    skos:prefLabel "Biological and related sciences"@en .
 
 :n052 a skos:Concept ;
     skos:broader :n05 ;
@@ -731,7 +731,7 @@
     skos:narrower :n0521,
         :n0522 ;
     skos:notation "052" ;
-    skos:prefLabel "Environment"@de .
+    skos:prefLabel "Environment"@en .
 
 :n054 a skos:Concept ;
     skos:broader :n05 ;
@@ -739,7 +739,7 @@
     skos:narrower :n0541,
         :n0542 ;
     skos:notation "054" ;
-    skos:prefLabel "Mathematics and statistics"@de .
+    skos:prefLabel "Mathematics and statistics"@en .
 
 :n073 a skos:Concept ;
     skos:broader :n07 ;
@@ -747,7 +747,7 @@
     skos:narrower :n0731,
         :n0732 ;
     skos:notation "073" ;
-    skos:prefLabel "Architecture and construction"@de .
+    skos:prefLabel "Architecture and construction"@en .
 
 :n081 a skos:Concept ;
     skos:broader :n08 ;
@@ -755,7 +755,7 @@
     skos:narrower :n0811,
         :n0812 ;
     skos:notation "081" ;
-    skos:prefLabel "Agriculture"@de .
+    skos:prefLabel "Agriculture"@en .
 
 :n102 a skos:Concept ;
     skos:broader :n10 ;
@@ -763,7 +763,7 @@
     skos:narrower :n1021,
         :n1022 ;
     skos:notation "102" ;
-    skos:prefLabel "Hygiene and occupational health services"@de .
+    skos:prefLabel "Hygiene and occupational health services"@en .
 
 :n103 a skos:Concept ;
     skos:broader :n10 ;
@@ -771,7 +771,7 @@
     skos:narrower :n1031,
         :n1032 ;
     skos:notation "103" ;
-    skos:prefLabel "Security services"@de .
+    skos:prefLabel "Security services"@en .
 
 :n022 a skos:Concept ;
     skos:broader :n02 ;
@@ -780,7 +780,7 @@
         :n0222,
         :n0223 ;
     skos:notation "022" ;
-    skos:prefLabel "Humanities (except languages)"@de .
+    skos:prefLabel "Humanities (except languages)"@en .
 
 :n053 a skos:Concept ;
     skos:broader :n05 ;
@@ -789,7 +789,7 @@
         :n0532,
         :n0533 ;
     skos:notation "053" ;
-    skos:prefLabel "Physical sciences"@de .
+    skos:prefLabel "Physical sciences"@en .
 
 :n092 a skos:Concept ;
     skos:broader :n09 ;
@@ -798,7 +798,7 @@
         :n0922,
         :n0923 ;
     skos:notation "092" ;
-    skos:prefLabel "Welfare"@de .
+    skos:prefLabel "Welfare"@en .
 
 :n031 a skos:Concept ;
     skos:broader :n03 ;
@@ -808,7 +808,7 @@
         :n0313,
         :n0314 ;
     skos:notation "031" ;
-    skos:prefLabel "Social and behavioural sciences"@de .
+    skos:prefLabel "Social and behavioural sciences"@en .
 
 :n072 a skos:Concept ;
     skos:broader :n07 ;
@@ -818,8 +818,8 @@
         :n0723,
         :n0724 ;
     skos:notation "072" ;
-    skos:prefLabel "Manufacturing and processing"@de ;
-    skos:scopeNote """Other manufacturing programmes [those without an emphasis towards engineering, i.e. on metals, mechanics, machinery, engines, electrical devices, etc.] and qualifications should be classified under 072 ‘Manufacturing and processing’. This is the case where the emphasis is on manufacturing specific products, such as food, textiles, shoes, paper, furniture, glass, plastic, etc., However, manufacturing of metal products is excluded from narrow field 072 and included in detailed field 0715 ‘Mechanics and metal trades’."""@de .
+    skos:prefLabel "Manufacturing and processing"@en ;
+    skos:scopeNote """Other manufacturing programmes [those without an emphasis towards engineering, i.e. on metals, mechanics, machinery, engines, electrical devices, etc.] and qualifications should be classified under 072 ‘Manufacturing and processing’. This is the case where the emphasis is on manufacturing specific products, such as food, textiles, shoes, paper, furniture, glass, plastic, etc., However, manufacturing of metal products is excluded from narrow field 072 and included in detailed field 0715 ‘Mechanics and metal trades’."""@en .
 
 :n021 a skos:Concept ;
     skos:broader :n02 ;
@@ -830,7 +830,7 @@
         :n0214,
         :n0215 ;
     skos:notation "021" ;
-    skos:prefLabel "Arts"@de .
+    skos:prefLabel "Arts"@en .
 
 :n101 a skos:Concept ;
     skos:broader :n10 ;
@@ -841,7 +841,7 @@
         :n1014,
         :n1015 ;
     skos:notation "101" ;
-    skos:prefLabel "Personal services"@de .
+    skos:prefLabel "Personal services"@en .
 
 :n071 a skos:Concept ;
     skos:broader :n07 ;
@@ -853,8 +853,8 @@
         :n0715,
         :n0716 ;
     skos:notation "071" ;
-    skos:prefLabel "Engineering and engineering trades"@de ;
-    skos:scopeNote """Manufacturing programmes should be classified in the detailed fields under 071 ‘Engineering and engineering trades’ if the emphasis is towards engineering, i.e. on metals, mechanics, machinery, engines, electrical devices, etc."""@de .
+    skos:prefLabel "Engineering and engineering trades"@en ;
+    skos:scopeNote """Manufacturing programmes should be classified in the detailed fields under 071 ‘Engineering and engineering trades’ if the emphasis is towards engineering, i.e. on metals, mechanics, machinery, engines, electrical devices, etc."""@en .
 
 :n041 a skos:Concept ;
     skos:broader :n04 ;
@@ -867,7 +867,7 @@
         :n0416,
         :n0417 ;
     skos:notation "041" ;
-    skos:prefLabel "Business and administration"@de .
+    skos:prefLabel "Business and administration"@en .
 
 :n091 a skos:Concept ;
     skos:broader :n09 ;
@@ -880,4 +880,4 @@
         :n0916,
         :n0917 ;
     skos:notation "091" ;
-    skos:prefLabel "Health"@de .
+    skos:prefLabel "Health"@en .
